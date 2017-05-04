@@ -1,0 +1,2470 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2015.11.27)  4 MAY 2017 19:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+./template.tex:5: Undefined control sequence.
+l.5 \usepackage
+               {amsmath,amsfonts,amssymb,color,epsfig,graphics,graphicx,late...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:8: Undefined control sequence.
+l.8 \usepackage
+               [cm]{fullpage}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:16: Undefined control sequence.
+l.16 \newtheorem
+                {definition}{Definition}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:17: Undefined control sequence.
+l.17 \newtheorem
+                {proposition}[definition]{Proposition}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:18: Undefined control sequence.
+l.18 \newtheorem
+                {lemma}[definition]{Lemma}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:19: Undefined control sequence.
+l.19 \newtheorem
+                {algorithm}[definition]{Algorithm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:20: Undefined control sequence.
+l.20 \newtheorem
+                {fact}[definition]{Fact}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:21: Undefined control sequence.
+l.21 \newtheorem
+                {theorem}[definition]{Theorem}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:22: Undefined control sequence.
+l.22 \newtheorem
+                {corollary}[definition]{Corollary}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:23: Undefined control sequence.
+l.23 \newtheorem
+                {conjecture}[definition]{Conjecture}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:24: Undefined control sequence.
+l.24 \newtheorem
+                {postulate}[definition]{Postulate}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:25: Undefined control sequence.
+l.25 \newtheorem
+                {axiom}[definition]{Axiom}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:26: Undefined control sequence.
+l.26 \newtheorem
+                {remark}[definition]{Remark}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:27: Undefined control sequence.
+l.27 \newtheorem
+                {example}[definition]{Example}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:28: Undefined control sequence.
+l.28 \newtheorem
+                {question}[definition]{Question}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:29: Undefined control sequence.
+l.29 \newtheorem
+                {observation}[definition]{Observation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (29.21848pt too wide) in paragraph at lines 16--30
+[]\tenrm definitionDefinition propo-si-tion[definition]Proposition lemma[definition]Lemma al-go-rithm[definition]Algorithm|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm d
+.\tenrm e
+.\tenrm ^^L (ligature fi)
+.\tenrm n
+.etc.
+
+
+Overfull \hbox (4.77385pt too wide) in paragraph at lines 16--30
+\tenrm fact[definition]Fact the-o-rem[definition]Theorem corol-lary[definition]Corollary con-jec-ture[definition]Conjecture|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm f
+.\tenrm a
+.\tenrm c
+.\tenrm t
+.\tenrm [
+.etc.
+
+./template.tex:39: Undefined control sequence.
+l.39 \newenvironment
+                    {proof}{\noindent \textbf{{Proof.~} }}{\qed}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:39: Undefined control sequence.
+l.39 \newenvironment{proof}{\noindent \textbf
+                                             {{Proof.~} }}{\qed}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:43: Undefined control sequence.
+l.43 \makeatletter
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:46: Undefined control sequence.
+l.46 \makeatother
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:48: Undefined control sequence.
+l.48 \urlstyle
+              {leo}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:83: Undefined control sequence.
+l.83 \newcommand
+                {\nc}{\newcommand}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:83: Undefined control sequence.
+l.83 \newcommand{\nc
+                    }{\newcommand}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:83: Undefined control sequence.
+l.83 \newcommand{\nc}{\newcommand
+                                 }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:126: Undefined control sequence.
+l.126  \nc
+          {\bA}{{\bf A}} \nc{\bB}{{\bf B}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:126: Undefined control sequence.
+l.126  \nc{\bA
+              }{{\bf A}} \nc{\bB}{{\bf B}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:126: Undefined control sequence.
+l.126  \nc{\bA}{{\bf A}} \nc
+                            {\bB}{{\bf B}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:126: Undefined control sequence.
+l.126  \nc{\bA}{{\bf A}} \nc{\bB
+                                }{{\bf B}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:128: Undefined control sequence.
+l.128  \nc
+          {\bC}{{\mathbb{C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:128: Undefined control sequence.
+l.128  \nc{\bC
+              }{{\mathbb{C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:128: Undefined control sequence.
+l.128  \nc{\bC}{{\mathbb
+                        {C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:129: Undefined control sequence.
+l.129  \nc
+          {\bD}{{\bf D}} \nc{\bE}{{\bf E}} \nc{\bF}{{\bf F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:129: Undefined control sequence.
+l.129  \nc{\bD
+              }{{\bf D}} \nc{\bE}{{\bf E}} \nc{\bF}{{\bf F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:129: Undefined control sequence.
+l.129  \nc{\bD}{{\bf D}} \nc
+                            {\bE}{{\bf E}} \nc{\bF}{{\bf F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:129: Undefined control sequence.
+l.129  \nc{\bD}{{\bf D}} \nc{\bE
+                                }{{\bf E}} \nc{\bF}{{\bf F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:129: Undefined control sequence.
+l.129  \nc{\bD}{{\bf D}} \nc{\bE}{{\bf E}} \nc
+                                              {\bF}{{\bf F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:129: Undefined control sequence.
+l.129  \nc{\bD}{{\bf D}} \nc{\bE}{{\bf E}} \nc{\bF
+                                                  }{{\bf F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:130: Undefined control sequence.
+l.130  \nc
+          {\bG}{{\bf G}} \nc{\bH}{{\bf H}} \nc{\bI}{{\bf I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:130: Undefined control sequence.
+l.130  \nc{\bG
+              }{{\bf G}} \nc{\bH}{{\bf H}} \nc{\bI}{{\bf I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:130: Undefined control sequence.
+l.130  \nc{\bG}{{\bf G}} \nc
+                            {\bH}{{\bf H}} \nc{\bI}{{\bf I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:130: Undefined control sequence.
+l.130  \nc{\bG}{{\bf G}} \nc{\bH
+                                }{{\bf H}} \nc{\bI}{{\bf I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:130: Undefined control sequence.
+l.130  \nc{\bG}{{\bf G}} \nc{\bH}{{\bf H}} \nc
+                                              {\bI}{{\bf I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:130: Undefined control sequence.
+l.130  \nc{\bG}{{\bf G}} \nc{\bH}{{\bf H}} \nc{\bI
+                                                  }{{\bf I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:131: Undefined control sequence.
+l.131  \nc
+          {\bJ}{{\bf J}} \nc{\bK}{{\bf K}} \nc{\bL}{{\bf L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:131: Undefined control sequence.
+l.131  \nc{\bJ
+              }{{\bf J}} \nc{\bK}{{\bf K}} \nc{\bL}{{\bf L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:131: Undefined control sequence.
+l.131  \nc{\bJ}{{\bf J}} \nc
+                            {\bK}{{\bf K}} \nc{\bL}{{\bf L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:131: Undefined control sequence.
+l.131  \nc{\bJ}{{\bf J}} \nc{\bK
+                                }{{\bf K}} \nc{\bL}{{\bf L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:131: Undefined control sequence.
+l.131  \nc{\bJ}{{\bf J}} \nc{\bK}{{\bf K}} \nc
+                                              {\bL}{{\bf L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:131: Undefined control sequence.
+l.131  \nc{\bJ}{{\bf J}} \nc{\bK}{{\bf K}} \nc{\bL
+                                                  }{{\bf L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:132: Undefined control sequence.
+l.132  \nc
+          {\bM}{{\bf M}} \nc{\bN}{{\bf N}} \nc{\bO}{{\bf O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:132: Undefined control sequence.
+l.132  \nc{\bM
+              }{{\bf M}} \nc{\bN}{{\bf N}} \nc{\bO}{{\bf O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:132: Undefined control sequence.
+l.132  \nc{\bM}{{\bf M}} \nc
+                            {\bN}{{\bf N}} \nc{\bO}{{\bf O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:132: Undefined control sequence.
+l.132  \nc{\bM}{{\bf M}} \nc{\bN
+                                }{{\bf N}} \nc{\bO}{{\bf O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:132: Undefined control sequence.
+l.132  \nc{\bM}{{\bf M}} \nc{\bN}{{\bf N}} \nc
+                                              {\bO}{{\bf O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:132: Undefined control sequence.
+l.132  \nc{\bM}{{\bf M}} \nc{\bN}{{\bf N}} \nc{\bO
+                                                  }{{\bf O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:133: Undefined control sequence.
+l.133  \nc
+          {\bP}{{\bf P}} \nc{\bQ}{{\bf Q}} \nc{\bR}{{\bf R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:133: Undefined control sequence.
+l.133  \nc{\bP
+              }{{\bf P}} \nc{\bQ}{{\bf Q}} \nc{\bR}{{\bf R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:133: Undefined control sequence.
+l.133  \nc{\bP}{{\bf P}} \nc
+                            {\bQ}{{\bf Q}} \nc{\bR}{{\bf R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:133: Undefined control sequence.
+l.133  \nc{\bP}{{\bf P}} \nc{\bQ
+                                }{{\bf Q}} \nc{\bR}{{\bf R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:133: Undefined control sequence.
+l.133  \nc{\bP}{{\bf P}} \nc{\bQ}{{\bf Q}} \nc
+                                              {\bR}{{\bf R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:133: Undefined control sequence.
+l.133  \nc{\bP}{{\bf P}} \nc{\bQ}{{\bf Q}} \nc{\bR
+                                                  }{{\bf R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:134: Undefined control sequence.
+l.134  \nc
+          {\bS}{{\bf S}} \nc{\bT}{{\bf T}} \nc{\bU}{{\bf U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:134: Undefined control sequence.
+l.134  \nc{\bS
+              }{{\bf S}} \nc{\bT}{{\bf T}} \nc{\bU}{{\bf U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:134: Undefined control sequence.
+l.134  \nc{\bS}{{\bf S}} \nc
+                            {\bT}{{\bf T}} \nc{\bU}{{\bf U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:134: Undefined control sequence.
+l.134  \nc{\bS}{{\bf S}} \nc{\bT
+                                }{{\bf T}} \nc{\bU}{{\bf U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:134: Undefined control sequence.
+l.134  \nc{\bS}{{\bf S}} \nc{\bT}{{\bf T}} \nc
+                                              {\bU}{{\bf U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:134: Undefined control sequence.
+l.134  \nc{\bS}{{\bf S}} \nc{\bT}{{\bf T}} \nc{\bU
+                                                  }{{\bf U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:135: Undefined control sequence.
+l.135  \nc
+          {\bV}{{\bf V}} \nc{\bW}{{\bf W}} \nc{\bX}{{\bf X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:135: Undefined control sequence.
+l.135  \nc{\bV
+              }{{\bf V}} \nc{\bW}{{\bf W}} \nc{\bX}{{\bf X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:135: Undefined control sequence.
+l.135  \nc{\bV}{{\bf V}} \nc
+                            {\bW}{{\bf W}} \nc{\bX}{{\bf X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:135: Undefined control sequence.
+l.135  \nc{\bV}{{\bf V}} \nc{\bW
+                                }{{\bf W}} \nc{\bX}{{\bf X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:135: Undefined control sequence.
+l.135  \nc{\bV}{{\bf V}} \nc{\bW}{{\bf W}} \nc
+                                              {\bX}{{\bf X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:135: Undefined control sequence.
+l.135  \nc{\bV}{{\bf V}} \nc{\bW}{{\bf W}} \nc{\bX
+                                                  }{{\bf X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:136: Undefined control sequence.
+l.136  \nc
+          {\bZ}{{\bf Z}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:136: Undefined control sequence.
+l.136  \nc{\bZ
+              }{{\bf Z}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:140: Undefined control sequence.
+l.140 \nc
+         {\cA}{{\cal A}} \nc{\cB}{{\cal B}} \nc{\cC}{{\cal C}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:140: Undefined control sequence.
+l.140 \nc{\cA
+             }{{\cal A}} \nc{\cB}{{\cal B}} \nc{\cC}{{\cal C}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:140: Undefined control sequence.
+l.140 \nc{\cA}{{\cal A}} \nc
+                            {\cB}{{\cal B}} \nc{\cC}{{\cal C}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:140: Undefined control sequence.
+l.140 \nc{\cA}{{\cal A}} \nc{\cB
+                                }{{\cal B}} \nc{\cC}{{\cal C}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:140: Undefined control sequence.
+l.140 \nc{\cA}{{\cal A}} \nc{\cB}{{\cal B}} \nc
+                                               {\cC}{{\cal C}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:140: Undefined control sequence.
+l.140 ...\cA}{{\cal A}} \nc{\cB}{{\cal B}} \nc{\cC
+                                                  }{{\cal C}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:141: Undefined control sequence.
+l.141 \nc
+         {\cD}{{\cal D}} \nc{\cE}{{\cal E}} \nc{\cF}{{\cal F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:141: Undefined control sequence.
+l.141 \nc{\cD
+             }{{\cal D}} \nc{\cE}{{\cal E}} \nc{\cF}{{\cal F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:141: Undefined control sequence.
+l.141 \nc{\cD}{{\cal D}} \nc
+                            {\cE}{{\cal E}} \nc{\cF}{{\cal F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:141: Undefined control sequence.
+l.141 \nc{\cD}{{\cal D}} \nc{\cE
+                                }{{\cal E}} \nc{\cF}{{\cal F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:141: Undefined control sequence.
+l.141 \nc{\cD}{{\cal D}} \nc{\cE}{{\cal E}} \nc
+                                               {\cF}{{\cal F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:141: Undefined control sequence.
+l.141 ...\cD}{{\cal D}} \nc{\cE}{{\cal E}} \nc{\cF
+                                                  }{{\cal F}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:142: Undefined control sequence.
+l.142 \nc
+         {\cG}{{\cal G}} \nc{\cH}{{\cal H}} \nc{\cI}{{\cal I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:142: Undefined control sequence.
+l.142 \nc{\cG
+             }{{\cal G}} \nc{\cH}{{\cal H}} \nc{\cI}{{\cal I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:142: Undefined control sequence.
+l.142 \nc{\cG}{{\cal G}} \nc
+                            {\cH}{{\cal H}} \nc{\cI}{{\cal I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:142: Undefined control sequence.
+l.142 \nc{\cG}{{\cal G}} \nc{\cH
+                                }{{\cal H}} \nc{\cI}{{\cal I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:142: Undefined control sequence.
+l.142 \nc{\cG}{{\cal G}} \nc{\cH}{{\cal H}} \nc
+                                               {\cI}{{\cal I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:142: Undefined control sequence.
+l.142 ...\cG}{{\cal G}} \nc{\cH}{{\cal H}} \nc{\cI
+                                                  }{{\cal I}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:143: Undefined control sequence.
+l.143 \nc
+         {\cJ}{{\cal J}} \nc{\cK}{{\cal K}} \nc{\cL}{{\cal L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:143: Undefined control sequence.
+l.143 \nc{\cJ
+             }{{\cal J}} \nc{\cK}{{\cal K}} \nc{\cL}{{\cal L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:143: Undefined control sequence.
+l.143 \nc{\cJ}{{\cal J}} \nc
+                            {\cK}{{\cal K}} \nc{\cL}{{\cal L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:143: Undefined control sequence.
+l.143 \nc{\cJ}{{\cal J}} \nc{\cK
+                                }{{\cal K}} \nc{\cL}{{\cal L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:143: Undefined control sequence.
+l.143 \nc{\cJ}{{\cal J}} \nc{\cK}{{\cal K}} \nc
+                                               {\cL}{{\cal L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:143: Undefined control sequence.
+l.143 ...\cJ}{{\cal J}} \nc{\cK}{{\cal K}} \nc{\cL
+                                                  }{{\cal L}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:144: Undefined control sequence.
+l.144 \nc
+         {\cM}{{\cal M}} \nc{\cN}{{\cal N}} \nc{\cO}{{\cal O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:144: Undefined control sequence.
+l.144 \nc{\cM
+             }{{\cal M}} \nc{\cN}{{\cal N}} \nc{\cO}{{\cal O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:144: Undefined control sequence.
+l.144 \nc{\cM}{{\cal M}} \nc
+                            {\cN}{{\cal N}} \nc{\cO}{{\cal O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:144: Undefined control sequence.
+l.144 \nc{\cM}{{\cal M}} \nc{\cN
+                                }{{\cal N}} \nc{\cO}{{\cal O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:144: Undefined control sequence.
+l.144 \nc{\cM}{{\cal M}} \nc{\cN}{{\cal N}} \nc
+                                               {\cO}{{\cal O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:144: Undefined control sequence.
+l.144 ...\cM}{{\cal M}} \nc{\cN}{{\cal N}} \nc{\cO
+                                                  }{{\cal O}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:145: Undefined control sequence.
+l.145 \nc
+         {\cP}{{\cal P}} \nc{\cQ}{{\cal Q}} \nc{\cR}{{\cal R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:145: Undefined control sequence.
+l.145 \nc{\cP
+             }{{\cal P}} \nc{\cQ}{{\cal Q}} \nc{\cR}{{\cal R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:145: Undefined control sequence.
+l.145 \nc{\cP}{{\cal P}} \nc
+                            {\cQ}{{\cal Q}} \nc{\cR}{{\cal R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:145: Undefined control sequence.
+l.145 \nc{\cP}{{\cal P}} \nc{\cQ
+                                }{{\cal Q}} \nc{\cR}{{\cal R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:145: Undefined control sequence.
+l.145 \nc{\cP}{{\cal P}} \nc{\cQ}{{\cal Q}} \nc
+                                               {\cR}{{\cal R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:145: Undefined control sequence.
+l.145 ...\cP}{{\cal P}} \nc{\cQ}{{\cal Q}} \nc{\cR
+                                                  }{{\cal R}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:146: Undefined control sequence.
+l.146 \nc
+         {\cS}{{\cal S}} \nc{\cT}{{\cal T}} \nc{\cU}{{\cal U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:146: Undefined control sequence.
+l.146 \nc{\cS
+             }{{\cal S}} \nc{\cT}{{\cal T}} \nc{\cU}{{\cal U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:146: Undefined control sequence.
+l.146 \nc{\cS}{{\cal S}} \nc
+                            {\cT}{{\cal T}} \nc{\cU}{{\cal U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:146: Undefined control sequence.
+l.146 \nc{\cS}{{\cal S}} \nc{\cT
+                                }{{\cal T}} \nc{\cU}{{\cal U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:146: Undefined control sequence.
+l.146 \nc{\cS}{{\cal S}} \nc{\cT}{{\cal T}} \nc
+                                               {\cU}{{\cal U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:146: Undefined control sequence.
+l.146 ...\cS}{{\cal S}} \nc{\cT}{{\cal T}} \nc{\cU
+                                                  }{{\cal U}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:147: Undefined control sequence.
+l.147 \nc
+         {\cV}{{\cal V}} \nc{\cW}{{\cal W}} \nc{\cX}{{\cal X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:147: Undefined control sequence.
+l.147 \nc{\cV
+             }{{\cal V}} \nc{\cW}{{\cal W}} \nc{\cX}{{\cal X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:147: Undefined control sequence.
+l.147 \nc{\cV}{{\cal V}} \nc
+                            {\cW}{{\cal W}} \nc{\cX}{{\cal X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:147: Undefined control sequence.
+l.147 \nc{\cV}{{\cal V}} \nc{\cW
+                                }{{\cal W}} \nc{\cX}{{\cal X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:147: Undefined control sequence.
+l.147 \nc{\cV}{{\cal V}} \nc{\cW}{{\cal W}} \nc
+                                               {\cX}{{\cal X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:147: Undefined control sequence.
+l.147 ...\cV}{{\cal V}} \nc{\cW}{{\cal W}} \nc{\cX
+                                                  }{{\cal X}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:148: Undefined control sequence.
+l.148 \nc
+         {\cZ}{{\cal Z}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:148: Undefined control sequence.
+l.148 \nc{\cZ
+             }{{\cal Z}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:152: Undefined control sequence.
+l.152 \nc
+         {\hA}{{\hat{A}}} \nc{\hB}{{\hat{B}}} \nc{\hC}{{\hat{C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:152: Undefined control sequence.
+l.152 \nc{\hA
+             }{{\hat{A}}} \nc{\hB}{{\hat{B}}} \nc{\hC}{{\hat{C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:152: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \mathaccent 
+\hat ->\mathaccent 
+                   "705E 
+l.152 \nc{\hA}{{\hat
+                    {A}}} \nc{\hB}{{\hat{B}}} \nc{\hC}{{\hat{C}}}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:152: Extra }, or forgotten $.
+l.152 \nc{\hA}{{\hat{A}}
+                        } \nc{\hB}{{\hat{B}}} \nc{\hC}{{\hat{C}}}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:152: Extra }, or forgotten $.
+l.152 \nc{\hA}{{\hat{A}}}
+                          \nc{\hB}{{\hat{B}}} \nc{\hC}{{\hat{C}}}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:152: Undefined control sequence.
+l.152 \nc{\hA}{{\hat{A}}} \nc
+                             {\hB}{{\hat{B}}} \nc{\hC}{{\hat{C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:152: Undefined control sequence.
+l.152 \nc{\hA}{{\hat{A}}} \nc{\hB
+                                 }{{\hat{B}}} \nc{\hC}{{\hat{C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:152: Undefined control sequence.
+l.152 \nc{\hA}{{\hat{A}}} \nc{\hB}{{\hat{B}}} \nc
+                                                 {\hC}{{\hat{C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:152: Undefined control sequence.
+l.152 ...A}{{\hat{A}}} \nc{\hB}{{\hat{B}}} \nc{\hC
+                                                  }{{\hat{C}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:153: Undefined control sequence.
+l.153 \nc
+         {\hD}{{\hat{D}}} \nc{\hE}{{\hat{E}}} \nc{\hF}{{\hat{F}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:153: Undefined control sequence.
+l.153 \nc{\hD
+             }{{\hat{D}}} \nc{\hE}{{\hat{E}}} \nc{\hF}{{\hat{F}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:153: Undefined control sequence.
+l.153 \nc{\hD}{{\hat{D}}} \nc
+                             {\hE}{{\hat{E}}} \nc{\hF}{{\hat{F}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:153: Undefined control sequence.
+l.153 \nc{\hD}{{\hat{D}}} \nc{\hE
+                                 }{{\hat{E}}} \nc{\hF}{{\hat{F}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:153: Undefined control sequence.
+l.153 \nc{\hD}{{\hat{D}}} \nc{\hE}{{\hat{E}}} \nc
+                                                 {\hF}{{\hat{F}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:153: Undefined control sequence.
+l.153 ...D}{{\hat{D}}} \nc{\hE}{{\hat{E}}} \nc{\hF
+                                                  }{{\hat{F}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:154: Undefined control sequence.
+l.154 \nc
+         {\hG}{{\hat{G}}} \nc{\hH}{{\hat{H}}} \nc{\hI}{{\hat{I}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:154: Undefined control sequence.
+l.154 \nc{\hG
+             }{{\hat{G}}} \nc{\hH}{{\hat{H}}} \nc{\hI}{{\hat{I}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:154: Undefined control sequence.
+l.154 \nc{\hG}{{\hat{G}}} \nc
+                             {\hH}{{\hat{H}}} \nc{\hI}{{\hat{I}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:154: Undefined control sequence.
+l.154 \nc{\hG}{{\hat{G}}} \nc{\hH
+                                 }{{\hat{H}}} \nc{\hI}{{\hat{I}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:154: Undefined control sequence.
+l.154 \nc{\hG}{{\hat{G}}} \nc{\hH}{{\hat{H}}} \nc
+                                                 {\hI}{{\hat{I}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:154: Undefined control sequence.
+l.154 ...G}{{\hat{G}}} \nc{\hH}{{\hat{H}}} \nc{\hI
+                                                  }{{\hat{I}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:155: Undefined control sequence.
+l.155 \nc
+         {\hJ}{{\hat{J}}} \nc{\hK}{{\hat{K}}} \nc{\hL}{{\hat{L}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:155: Undefined control sequence.
+l.155 \nc{\hJ
+             }{{\hat{J}}} \nc{\hK}{{\hat{K}}} \nc{\hL}{{\hat{L}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:155: Undefined control sequence.
+l.155 \nc{\hJ}{{\hat{J}}} \nc
+                             {\hK}{{\hat{K}}} \nc{\hL}{{\hat{L}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:155: Undefined control sequence.
+l.155 \nc{\hJ}{{\hat{J}}} \nc{\hK
+                                 }{{\hat{K}}} \nc{\hL}{{\hat{L}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:155: Undefined control sequence.
+l.155 \nc{\hJ}{{\hat{J}}} \nc{\hK}{{\hat{K}}} \nc
+                                                 {\hL}{{\hat{L}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:155: Undefined control sequence.
+l.155 ...J}{{\hat{J}}} \nc{\hK}{{\hat{K}}} \nc{\hL
+                                                  }{{\hat{L}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:156: Undefined control sequence.
+l.156 \nc
+         {\hM}{{\hat{M}}} \nc{\hN}{{\hat{N}}} \nc{\hO}{{\hat{O}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:156: Undefined control sequence.
+l.156 \nc{\hM
+             }{{\hat{M}}} \nc{\hN}{{\hat{N}}} \nc{\hO}{{\hat{O}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:156: Undefined control sequence.
+l.156 \nc{\hM}{{\hat{M}}} \nc
+                             {\hN}{{\hat{N}}} \nc{\hO}{{\hat{O}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:156: Undefined control sequence.
+l.156 \nc{\hM}{{\hat{M}}} \nc{\hN
+                                 }{{\hat{N}}} \nc{\hO}{{\hat{O}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:156: Undefined control sequence.
+l.156 \nc{\hM}{{\hat{M}}} \nc{\hN}{{\hat{N}}} \nc
+                                                 {\hO}{{\hat{O}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:156: Undefined control sequence.
+l.156 ...M}{{\hat{M}}} \nc{\hN}{{\hat{N}}} \nc{\hO
+                                                  }{{\hat{O}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:157: Undefined control sequence.
+l.157 \nc
+         {\hP}{{\hat{P}}} \nc{\hR}{{\hat{R}}} \nc{\hS}{{\hat{S}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:157: Undefined control sequence.
+l.157 \nc{\hP
+             }{{\hat{P}}} \nc{\hR}{{\hat{R}}} \nc{\hS}{{\hat{S}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:157: Undefined control sequence.
+l.157 \nc{\hP}{{\hat{P}}} \nc
+                             {\hR}{{\hat{R}}} \nc{\hS}{{\hat{S}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:157: Undefined control sequence.
+l.157 \nc{\hP}{{\hat{P}}} \nc{\hR
+                                 }{{\hat{R}}} \nc{\hS}{{\hat{S}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:157: Undefined control sequence.
+l.157 \nc{\hP}{{\hat{P}}} \nc{\hR}{{\hat{R}}} \nc
+                                                 {\hS}{{\hat{S}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:157: Undefined control sequence.
+l.157 ...P}{{\hat{P}}} \nc{\hR}{{\hat{R}}} \nc{\hS
+                                                  }{{\hat{S}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:158: Undefined control sequence.
+l.158 \nc
+         {\hT}{{\hat{T}}} \nc{\hU}{{\hat{U}}} \nc{\hV}{{\hat{V}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:158: Undefined control sequence.
+l.158 \nc{\hT
+             }{{\hat{T}}} \nc{\hU}{{\hat{U}}} \nc{\hV}{{\hat{V}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:158: Undefined control sequence.
+l.158 \nc{\hT}{{\hat{T}}} \nc
+                             {\hU}{{\hat{U}}} \nc{\hV}{{\hat{V}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:158: Undefined control sequence.
+l.158 \nc{\hT}{{\hat{T}}} \nc{\hU
+                                 }{{\hat{U}}} \nc{\hV}{{\hat{V}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:158: Undefined control sequence.
+l.158 \nc{\hT}{{\hat{T}}} \nc{\hU}{{\hat{U}}} \nc
+                                                 {\hV}{{\hat{V}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:158: Undefined control sequence.
+l.158 ...T}{{\hat{T}}} \nc{\hU}{{\hat{U}}} \nc{\hV
+                                                  }{{\hat{V}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:159: Undefined control sequence.
+l.159 \nc
+         {\hW}{{\hat{W}}} \nc{\hX}{{\hat{X}}} \nc{\hZ}{{\hat{Z}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:159: Undefined control sequence.
+l.159 \nc{\hW
+             }{{\hat{W}}} \nc{\hX}{{\hat{X}}} \nc{\hZ}{{\hat{Z}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:159: Undefined control sequence.
+l.159 \nc{\hW}{{\hat{W}}} \nc
+                             {\hX}{{\hat{X}}} \nc{\hZ}{{\hat{Z}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:159: Undefined control sequence.
+l.159 \nc{\hW}{{\hat{W}}} \nc{\hX
+                                 }{{\hat{X}}} \nc{\hZ}{{\hat{Z}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:159: Undefined control sequence.
+l.159 \nc{\hW}{{\hat{W}}} \nc{\hX}{{\hat{X}}} \nc
+                                                 {\hZ}{{\hat{Z}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:159: Undefined control sequence.
+l.159 ...W}{{\hat{W}}} \nc{\hX}{{\hat{X}}} \nc{\hZ
+                                                  }{{\hat{Z}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:160: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.160 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:161: Undefined control sequence.
+l.161 \nc
+         {\hn}{{\hat{n}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:161: Undefined control sequence.
+l.161 \nc{\hn
+             }{{\hat{n}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:161: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \mathaccent 
+\hat ->\mathaccent 
+                   "705E 
+l.161 \nc{\hn}{{\hat
+                    {n}}}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:161: Extra }, or forgotten $.
+l.161 \nc{\hn}{{\hat{n}}
+                        }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:161: Extra }, or forgotten $.
+l.161 \nc{\hn}{{\hat{n}}}
+                         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:162: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.162 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:277: Undefined control sequence.
+l.277 \newcommand
+                 {\pv}{projective variety}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:277: Undefined control sequence.
+l.277 \newcommand{\pv
+                     }{projective variety}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:278: Undefined control sequence.
+l.278 \newcommand
+                 {\pvs}{projective varieties}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:278: Undefined control sequence.
+l.278 \newcommand{\pvs
+                      }{projective varieties}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:303: Undefined control sequence.
+l.303 \newcommand
+                 {\bra}[1]{\langle#1|}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:303: Undefined control sequence.
+l.303 \newcommand{\bra
+                      }[1]{\langle#1|}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:303: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \delimiter 
+\langle ->\delimiter 
+                     "426830A 
+l.303 \newcommand{\bra}[1]{\langle
+                                  #1|}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:303: You can't use `macro parameter character #' in math mode.
+l.303 \newcommand{\bra}[1]{\langle#
+                                   1|}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:303: Extra }, or forgotten $.
+l.303 \newcommand{\bra}[1]{\langle#1|}
+                                      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./template.tex:304: Undefined control sequence.
+l.304 \newcommand
+                 {\ket}[1]{|#1\rangle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:304: Undefined control sequence.
+l.304 \newcommand{\ket
+                      }[1]{|#1\rangle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:304: You can't use `macro parameter character #' in math mode.
+l.304 \newcommand{\ket}[1]{|#
+                             1\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:305: Undefined control sequence.
+l.305 \newcommand
+                 {\proj}[1]{| #1\rangle\!\langle #1 |}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:305: Undefined control sequence.
+l.305 \newcommand{\proj
+                       }[1]{| #1\rangle\!\langle #1 |}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:305: You can't use `macro parameter character #' in math mode.
+l.305 \newcommand{\proj}[1]{| #
+                               1\rangle\!\langle #1 |}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:305: You can't use `macro parameter character #' in math mode.
+l.305 \newcommand{\proj}[1]{| #1\rangle\!\langle #
+                                                  1 |}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:306: Undefined control sequence.
+l.306 \newcommand
+                 {\ketbra}[2]{|#1\rangle\!\langle#2|}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:306: Undefined control sequence.
+l.306 \newcommand{\ketbra
+                         }[2]{|#1\rangle\!\langle#2|}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:306: You can't use `macro parameter character #' in math mode.
+l.306 \newcommand{\ketbra}[2]{|#
+                                1\rangle\!\langle#2|}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:306: You can't use `macro parameter character #' in math mode.
+l.306 \newcommand{\ketbra}[2]{|#1\rangle\!\langle#
+                                                  2|}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:307: Undefined control sequence.
+l.307 \newcommand
+                 {\braket}[2]{\langle#1|#2\rangle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:307: Undefined control sequence.
+l.307 \newcommand{\braket
+                         }[2]{\langle#1|#2\rangle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:307: You can't use `macro parameter character #' in math mode.
+l.307 \newcommand{\braket}[2]{\langle#
+                                      1|#2\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:307: You can't use `macro parameter character #' in math mode.
+l.307 \newcommand{\braket}[2]{\langle#1|#
+                                         2\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:308: Undefined control sequence.
+l.308 \newcommand
+                 {\wetw}[2]{|#1\rangle\wedge|#2\rangle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:308: Undefined control sequence.
+l.308 \newcommand{\wetw
+                       }[2]{|#1\rangle\wedge|#2\rangle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:308: You can't use `macro parameter character #' in math mode.
+l.308 \newcommand{\wetw}[2]{|#
+                              1\rangle\wedge|#2\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:308: You can't use `macro parameter character #' in math mode.
+l.308 \newcommand{\wetw}[2]{|#1\rangle\wedge|#
+                                              2\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:309: Undefined control sequence.
+l.309 \newcommand
+                 {\weth}[3]{|#1\rangle\wedge|#2\rangle\wedge|#3\rangle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:309: Undefined control sequence.
+l.309 \newcommand{\weth
+                       }[3]{|#1\rangle\wedge|#2\rangle\wedge|#3\rangle}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:309: You can't use `macro parameter character #' in math mode.
+l.309 \newcommand{\weth}[3]{|#
+                              1\rangle\wedge|#2\rangle\wedge|#3\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:309: You can't use `macro parameter character #' in math mode.
+l.309 \newcommand{\weth}[3]{|#1\rangle\wedge|#
+                                              2\rangle\wedge|#3\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:309: You can't use `macro parameter character #' in math mode.
+l.309 ...th}[3]{|#1\rangle\wedge|#2\rangle\wedge|#
+                                                  3\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:310: Undefined control sequence.
+l.310 \newcommand
+                 {\wefo}[4]{|#1\rangle\wedge|#2\rangle\wedge|#3\rangle\wedge...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:310: Undefined control sequence.
+l.310 \newcommand{\wefo
+                       }[4]{|#1\rangle\wedge|#2\rangle\wedge|#3\rangle\wedge...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:310: You can't use `macro parameter character #' in math mode.
+l.310 \newcommand{\wefo}[4]{|#
+                              1\rangle\wedge|#2\rangle\wedge|#3\rangle\wedge...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:310: You can't use `macro parameter character #' in math mode.
+l.310 \newcommand{\wefo}[4]{|#1\rangle\wedge|#
+                                              2\rangle\wedge|#3\rangle\wedge...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:310: You can't use `macro parameter character #' in math mode.
+l.310 ...fo}[4]{|#1\rangle\wedge|#2\rangle\wedge|#
+                                                  3\rangle\wedge|#4\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:310: You can't use `macro parameter character #' in math mode.
+l.310 ...e\wedge|#2\rangle\wedge|#3\rangle\wedge|#
+                                                  4\rangle}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:311: Undefined control sequence.
+l.311 \newcommand
+                 {\norm}[1]{\lVert#1\rVert}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:311: Undefined control sequence.
+l.311 \newcommand{\norm
+                       }[1]{\lVert#1\rVert}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:311: Undefined control sequence.
+l.311 \newcommand{\norm}[1]{\lVert
+                                  #1\rVert}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:311: You can't use `macro parameter character #' in math mode.
+l.311 \newcommand{\norm}[1]{\lVert#
+                                   1\rVert}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:311: Undefined control sequence.
+l.311 \newcommand{\norm}[1]{\lVert#1\rVert
+                                          }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:312: Undefined control sequence.
+l.312 \newcommand
+                 {\abs}[1]{|#1|}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:312: Undefined control sequence.
+l.312 \newcommand{\abs
+                      }[1]{|#1|}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:312: You can't use `macro parameter character #' in math mode.
+l.312 \newcommand{\abs}[1]{|#
+                             1|}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./template.tex:313: Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.313 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./template.tex:314: Undefined control sequence.
+l.314 \newcommand
+                 {\tbc}{\red{TO BE CONTINUED...}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:314: Undefined control sequence.
+l.314 \newcommand{\tbc
+                      }{\red{TO BE CONTINUED...}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:314: Undefined control sequence.
+l.314 \newcommand{\tbc}{\red
+                            {TO BE CONTINUED...}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:316: Undefined control sequence.
+l.316 \newcommand
+                 {\opp}{\red{OPEN PROBLEM}.~}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:316: Undefined control sequence.
+l.316 \newcommand{\opp
+                      }{\red{OPEN PROBLEM}.~}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:316: Undefined control sequence.
+l.316 \newcommand{\opp}{\red
+                            {OPEN PROBLEM}.~}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:321: Undefined control sequence.
+l.321 \newcommand
+                 {\red}{\textcolor{red}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:321: Undefined control sequence.
+l.321 \newcommand{\red
+                      }{\textcolor{red}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:321: Undefined control sequence.
+l.321 \newcommand{\red}{\textcolor
+                                  {red}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:323: Undefined control sequence.
+l.323 \newcommand
+                 {\blue}{\textcolor{blue}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:323: Undefined control sequence.
+l.323 \newcommand{\blue
+                       }{\textcolor{blue}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:323: Undefined control sequence.
+l.323 \newcommand{\blue}{\textcolor
+                                   {blue}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:325: Undefined control sequence.
+l.325 \newcommand
+                 {\green}{\textcolor{green}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:325: Undefined control sequence.
+l.325 \newcommand{\green
+                        }{\textcolor{green}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:325: Undefined control sequence.
+l.325 \newcommand{\green}{\textcolor
+                                    {green}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:326: Undefined control sequence.
+l.326 \newcommand
+                 {\white}{\textcolor{white}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:326: Undefined control sequence.
+l.326 \newcommand{\white
+                        }{\textcolor{white}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:326: Undefined control sequence.
+l.326 \newcommand{\white}{\textcolor
+                                    {white}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:330: Undefined control sequence.
+l.330 \newcommand
+                 {\cmp}{Comm. Math. Phys.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:330: Undefined control sequence.
+l.330 \newcommand{\cmp
+                      }{Comm. Math. Phys.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:331: Undefined control sequence.
+l.331 \newcommand
+                 {\ieee}{IEEE. Trans. Inf. Theory}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:331: Undefined control sequence.
+l.331 \newcommand{\ieee
+                       }{IEEE. Trans. Inf. Theory}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:332: Undefined control sequence.
+l.332 \newcommand
+                 {\jmp}{J. Math. Phys.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:332: Undefined control sequence.
+l.332 \newcommand{\jmp
+                      }{J. Math. Phys.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:333: Undefined control sequence.
+l.333 \newcommand
+                 {\jpa}{J. Phys. A}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:333: Undefined control sequence.
+l.333 \newcommand{\jpa
+                      }{J. Phys. A}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:334: Undefined control sequence.
+l.334 \newcommand
+                 {\natpho}{Nat. Photon.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:334: Undefined control sequence.
+l.334 \newcommand{\natpho
+                         }{Nat. Photon.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:335: Undefined control sequence.
+l.335 \newcommand
+                 {\natphy}{Nature Phys.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:335: Undefined control sequence.
+l.335 \newcommand{\natphy
+                         }{Nature Phys.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:336: Undefined control sequence.
+l.336 \newcommand
+                 {\natl}{Nature (London)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:336: Undefined control sequence.
+l.336 \newcommand{\natl
+                       }{Nature (London)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:337: Undefined control sequence.
+l.337 \newcommand
+                 {\njp}{New. J. Phys.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:337: Undefined control sequence.
+l.337 \newcommand{\njp
+                      }{New. J. Phys.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:338: Undefined control sequence.
+l.338 \newcommand
+                 {\phyr}{Phys. Rep.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:338: Undefined control sequence.
+l.338 \newcommand{\phyr
+                       }{Phys. Rep.}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:339: Undefined control sequence.
+l.339 \newcommand
+                 {\pla}{Phys. Lett. A}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:339: Undefined control sequence.
+l.339 \newcommand{\pla
+                      }{Phys. Lett. A}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:340: Undefined control sequence.
+l.340 \newcommand
+                 {\sci}{Science}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./template.tex:340: Undefined control sequence.
+l.340 \newcommand{\sci
+                      }{Science}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> template.tex
+                
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!

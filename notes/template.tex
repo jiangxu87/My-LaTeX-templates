@@ -1,0 +1,374 @@
+% part only for tex. There are 9 parts of preliminary abbreviations.
+
+%1=general environment
+
+\usepackage{amsmath,amsfonts,amssymb,color,epsfig,graphics,graphicx,latexsym,theorem,url,verbatim}
+
+%\usepackage{fullpage}
+\usepackage[cm]{fullpage}
+
+%\usepackage{pdfpages}
+
+%\usepackage{hyperref}
+
+%\usepackage[colorlinks,linkcolor=blue,anchorcolor=red,citecolor=green]{hyperref}
+
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}[definition]{Proposition}
+\newtheorem{lemma}[definition]{Lemma}
+\newtheorem{algorithm}[definition]{Algorithm}
+\newtheorem{fact}[definition]{Fact}
+\newtheorem{theorem}[definition]{Theorem}
+\newtheorem{corollary}[definition]{Corollary}
+\newtheorem{conjecture}[definition]{Conjecture}
+\newtheorem{postulate}[definition]{Postulate}
+\newtheorem{axiom}[definition]{Axiom}
+\newtheorem{remark}[definition]{Remark}
+\newtheorem{example}[definition]{Example}
+\newtheorem{question}[definition]{Question}
+\newtheorem{observation}[definition]{Observation}
+
+\def\squareforqed{\hbox{\rlap{$\sqcap$}$\sqcup$}}
+\def\qed{\ifmmode\squareforqed\else{\unskip\nobreak\hfil
+\penalty50\hskip1em\null\nobreak\hfil\squareforqed
+\parfillskip=0pt\finalhyphendemerits=0\endgraf}\fi}
+\def\endenv{\ifmmode\;\else{\unskip\nobreak\hfil
+\penalty50\hskip1em\null\nobreak\hfil\;
+\parfillskip=0pt\finalhyphendemerits=0\endgraf}\fi}
+% unavailable for beamer:
+\newenvironment{proof}{\noindent \textbf{{Proof.~} }}{\qed}
+\def\Dbar{\leavevmode\lower.6ex\hbox to 0pt
+{\hskip-.23ex\accent"16\hss}D}
+% Define a new 'leo' style for the package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
+\makeatother
+% Now actually use the newly defined style.
+\urlstyle{leo}
+
+
+
+\def\bcj{\begin{conjecture}}
+\def\ecj{\end{conjecture}}
+\def\bcr{\begin{corollary}}
+\def\ecr{\end{corollary}}
+\def\bd{\begin{definition}}
+\def\ed{\end{definition}}
+\def\bea{\begin{eqnarray}}
+\def\eea{\end{eqnarray}}
+\def\bem{\begin{enumerate}}
+\def\eem{\end{enumerate}}
+\def\bex{\begin{example}}
+\def\eex{\end{example}}
+\def\bim{\begin{itemize}}
+\def\eim{\end{itemize}}
+\def\bl{\begin{lemma}}
+\def\el{\end{lemma}}
+\def\bpf{\begin{proof}}
+\def\epf{\end{proof}}
+\def\bpp{\begin{proposition}}
+\def\epp{\end{proposition}}
+\def\bqu{\begin{question}}
+\def\equ{\end{question}}
+\def\br{\begin{remark}}
+\def\er{\end{remark}}
+\def\bt{\begin{theorem}}
+\def\et{\end{theorem}}
+
+\def\btb{\begin{tabular}}
+\def\etb{\end{tabular}}
+
+
+\newcommand{\nc}{\newcommand}
+
+%2=alphabet
+
+\def\a{\alpha}
+\def\b{\beta}
+\def\g{\gamma}
+\def\d{\delta}
+\def\e{\epsilon}
+\def\ve{\varepsilon}
+\def\z{\zeta}
+\def\h{\eta}
+\def\t{\theta}
+\def\i{\iota}
+\def\k{\kappa}
+\def\l{\lambda}
+\def\m{\mu}
+\def\n{\nu}
+\def\x{\xi}
+\def\p{\pi}
+\def\r{\rho}
+\def\s{\sigma}
+\def\ta{\tau}
+\def\u{\upsilon}
+\def\ph{\varphi}
+\def\c{\chi}
+\def\ps{\psi}
+\def\o{\omega}
+
+\def\G{\Gamma}
+\def\D{\Delta}
+\def\T{\Theta}
+\def\L{\Lambda}
+\def\X{\Xi}
+\def\P{\Pi}
+\def\S{\Sigma}
+\def\U{\Upsilon}
+\def\Ph{\Phi}
+\def\Ps{\Psi}
+\def\O{\Omega}
+
+
+
+ \nc{\bA}{{\bf A}} \nc{\bB}{{\bf B}}
+ %\nc{\bC}{{\bf C}}
+ \nc{\bC}{{\mathbb{C}}}
+ \nc{\bD}{{\bf D}} \nc{\bE}{{\bf E}} \nc{\bF}{{\bf F}}
+ \nc{\bG}{{\bf G}} \nc{\bH}{{\bf H}} \nc{\bI}{{\bf I}}
+ \nc{\bJ}{{\bf J}} \nc{\bK}{{\bf K}} \nc{\bL}{{\bf L}}
+ \nc{\bM}{{\bf M}} \nc{\bN}{{\bf N}} \nc{\bO}{{\bf O}}
+ \nc{\bP}{{\bf P}} \nc{\bQ}{{\bf Q}} \nc{\bR}{{\bf R}}
+ \nc{\bS}{{\bf S}} \nc{\bT}{{\bf T}} \nc{\bU}{{\bf U}}
+ \nc{\bV}{{\bf V}} \nc{\bW}{{\bf W}} \nc{\bX}{{\bf X}}
+ \nc{\bZ}{{\bf Z}}
+
+%\bQ, \bR, \bZ denotes the set of rational, real and integer numbers.
+
+\nc{\cA}{{\cal A}} \nc{\cB}{{\cal B}} \nc{\cC}{{\cal C}}
+\nc{\cD}{{\cal D}} \nc{\cE}{{\cal E}} \nc{\cF}{{\cal F}}
+\nc{\cG}{{\cal G}} \nc{\cH}{{\cal H}} \nc{\cI}{{\cal I}}
+\nc{\cJ}{{\cal J}} \nc{\cK}{{\cal K}} \nc{\cL}{{\cal L}}
+\nc{\cM}{{\cal M}} \nc{\cN}{{\cal N}} \nc{\cO}{{\cal O}}
+\nc{\cP}{{\cal P}} \nc{\cQ}{{\cal Q}} \nc{\cR}{{\cal R}}
+\nc{\cS}{{\cal S}} \nc{\cT}{{\cal T}} \nc{\cU}{{\cal U}}
+\nc{\cV}{{\cal V}} \nc{\cW}{{\cal W}} \nc{\cX}{{\cal X}}
+\nc{\cZ}{{\cal Z}}
+
+% \cX denotes a set, etc in mathematical definition.
+
+\nc{\hA}{{\hat{A}}} \nc{\hB}{{\hat{B}}} \nc{\hC}{{\hat{C}}}
+\nc{\hD}{{\hat{D}}} \nc{\hE}{{\hat{E}}} \nc{\hF}{{\hat{F}}}
+\nc{\hG}{{\hat{G}}} \nc{\hH}{{\hat{H}}} \nc{\hI}{{\hat{I}}}
+\nc{\hJ}{{\hat{J}}} \nc{\hK}{{\hat{K}}} \nc{\hL}{{\hat{L}}}
+\nc{\hM}{{\hat{M}}} \nc{\hN}{{\hat{N}}} \nc{\hO}{{\hat{O}}}
+\nc{\hP}{{\hat{P}}} \nc{\hR}{{\hat{R}}} \nc{\hS}{{\hat{S}}}
+\nc{\hT}{{\hat{T}}} \nc{\hU}{{\hat{U}}} \nc{\hV}{{\hat{V}}}
+\nc{\hW}{{\hat{W}}} \nc{\hX}{{\hat{X}}} \nc{\hZ}{{\hat{Z}}}
+
+\nc{\hn}{{\hat{n}}}
+
+%3=math symbol, personal
+
+%3.1 tensor rank
+
+\def\cd{\mathop{\rm CD}}
+% canonical decomposition, namely the convex sum of r product states
+\def\cdr{\mathop{\rm CD_R}}
+% canonical decomposition over the real field
+\def\scd{\mathop{\rm SCD}}
+% symmetric canonical decomposition, namely the convex sum of r symmetric product states
+\def\scdr{\mathop{\rm SCD_R}}
+% symmetric canonical decomposition over the real field
+\def\ocd{\mathop{\rm OCD}}
+% orthogonal canonical decomposition, namely the convex sum of r orthogonal product states
+\def\socd{\mathop{\rm SOCD}}
+% strong orthogonal canonical decomposition, namely the convex sum of r locally orthogonal product states
+
+\def\rk{\mathop{\rm rk}}
+%rk=tensor rank with canonical decomposition
+\def\rkr{\mathop{\rm rk_R}}
+%rk=tensor rank with real canonical decomposition
+\def\srk{\mathop{\rm srk}}
+%srk=symmetric tensor rank with symmetric canonical decomposition
+\def\srkr{\mathop{\rm srk_R}}
+%srk=symmetric tensor rank with real canonical decomposition
+
+\def\rrk{\mathop{\rm rrk}}
+%rrk=regularized tensor rank
+\def\rsrk{\mathop{\rm rsrk}}
+%rsrk=regularized symmetric tensor rank
+
+\def\grk{\mathop{\rm grk}}
+%grk=generic tensor rank equal to the tensor rank of most tensors in the space; there is only one grk
+\def\trk{\mathop{\rm trk}}
+%trk=typical tensor rank equal to the tensor rank of a part of tensors in the space; there may exist a few different trk
+\def\ark{\mathop{\rm ark}}
+%ark=asymmetric tensor rank, where decomposition contains at least one asymmetric product states
+\def\brk{\mathop{\rm brk}}
+%brk=border tensor rank
+\def\sbrk{\mathop{\rm sbrk}}
+%bsrk=symmetric border tensor rank
+
+\def\ork{\mathop{\rm ork}}
+%ork=orthogonal tensor rank
+\def\sork{\mathop{\rm sork}}
+%sork=strong orthogonal tensor rank
+
+
+
+%3.2 general
+
+\def\birank{\mathop{\rm birank}}
+%birank=(rank,rank^\G)
+\def\cmi{\mathop{\rm CMI}}
+\def\co{\mathop{\rm Co}}
+\def\cps{\mathop{\rm CPS}}
+%cps=closest product state in the geometric measure of entanglement
+\def\css{\mathop{\rm CSS}}
+%cps=closest separable state in the geometric measure of entanglement
+\def\csd{\mathop{\rm CSD}}
+%csd=canonical separable decomposition, i.e., reaching the length
+\def\diag{\mathop{\rm diag}}
+\def\dim{\mathop{\rm Dim}}
+\def\epr{\mathop{\rm EPR}}
+\def\ev{\mathop{\rm EV}}
+%EV=eigenvalue
+\def\ghz{\mathop{\rm GHZ}}
+\def\ghzg{\mathop{\rm GHZg}}
+\def\gh{\mathop{\rm GH}}
+\def\gz{\mathop{\rm GZ}}
+\def\hz{\mathop{\rm HZ}}
+\def\I{\mathop{\rm I}}
+\def\iso{\mathop{\rm iso}}
+\def\lin{\mathop{\rm span}}
+\def\loc{\mathop{\rm Loc}}
+%Loc=local CPTP map
+\def\locc{\mathop{\rm LOCC}}
+\def\lu{\mathop{\rm LU}}
+\def\max{\mathop{\rm max}}
+\def\min{\mathop{\rm min}}
+\def\mspec{\mathop{\rm mspec}}
+\def\oghz{\mathop{\overline{\ghz}}}
+\def\per{\mathop{\rm per}}
+\def\ppt{\mathop{\rm PPT}}
+\def\pr{\mathop{\rm pr}}
+%pr=polynomial rank in algebraic geometry for symmetric states
+\def\pro{\mathop{\rm PRO}}
+%pro=product states
+\def\rank{\mathop{\rm rank}}
+\def\sd{\mathop{\rm SD}}
+%sd=separable decomposition
+\def\sep{\mathop{\rm SEP}}
+\def\slocc{\mathop{\rm SLOCC}}
+\def\sr{\mathop{\rm sr}}
+%sr=Schmidt rank
+\def\supp{\mathop{\rm supp}}
+\def\tr{\mathop{\rm Tr}}
+\def\w{\mathop{\rm W}}
+\def\werner{\mathop{\rm werner}}
+
+
+\def\sp{\mathop{\rm sp}}
+
+
+
+\def\GL{{\mbox{\rm GL}}}
+\def\PGL{{\mbox{\rm PGL}}}
+\def\SL{{\mbox{\rm SL}}}
+\def\SO{{\mbox{\rm SO}}}
+\def\Ort{{\mbox{\rm O}}}
+\def\Un{{\mbox{\rm U}}}
+
+%3.3 abbreviation
+
+\newcommand{\pv}{projective variety}
+\newcommand{\pvs}{projective varieties}
+
+
+%4=math symbol, default
+
+\def\xr{X_\r}
+\def\xrg{X_{\r^\G}}
+\def\axr{\abs{X_\r}}
+\def\axrg{\abs{X_{\r^\G}}}
+
+\def\bigox{\bigotimes}
+\def\dg{\dagger}
+\def\es{\emptyset}
+\def\la{\leftarrow}
+\def\La{\Leftarrow}
+\def\lra{\leftrightarrow}
+\def\Lra{\Leftrightarrow}
+\def\op{\oplus}
+\def\ox{\otimes}
+\def\ra{\rightarrow}
+\def\Ra{\Rightarrow}
+\def\su{\subset}
+\def\sue{\subseteq}
+\def\sm{\setminus}
+\def\we{\wedge}
+\newcommand{\bra}[1]{\langle#1|}
+\newcommand{\ket}[1]{|#1\rangle}
+\newcommand{\proj}[1]{| #1\rangle\!\langle #1 |}
+\newcommand{\ketbra}[2]{|#1\rangle\!\langle#2|}
+\newcommand{\braket}[2]{\langle#1|#2\rangle}
+\newcommand{\wetw}[2]{|#1\rangle\wedge|#2\rangle}
+\newcommand{\weth}[3]{|#1\rangle\wedge|#2\rangle\wedge|#3\rangle}
+\newcommand{\wefo}[4]{|#1\rangle\wedge|#2\rangle\wedge|#3\rangle\wedge|#4\rangle}
+\newcommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\abs}[1]{|#1|}
+
+\newcommand{\tbc}{\red{TO BE CONTINUED...}}
+
+\newcommand{\opp}{\red{OPEN PROBLEM}.~}
+
+
+%5=color
+
+\newcommand{\red}{\textcolor{red}}
+% open questions
+\newcommand{\blue}{\textcolor{blue}}
+% suspicious result or derivation
+\newcommand{\green}{\textcolor{green}}
+\newcommand{\white}{\textcolor{white}}
+
+%6=journal
+
+\newcommand{\cmp}{Comm. Math. Phys.}
+\newcommand{\ieee}{IEEE. Trans. Inf. Theory}
+\newcommand{\jmp}{J. Math. Phys.}
+\newcommand{\jpa}{J. Phys. A}
+\newcommand{\natpho}{Nat. Photon.}
+\newcommand{\natphy}{Nature Phys.}
+\newcommand{\natl}{Nature (London)}
+\newcommand{\njp}{New. J. Phys.}
+\newcommand{\phyr}{Phys. Rep.}
+\newcommand{\pla}{Phys. Lett. A}
+\newcommand{\sci}{Science}
+% APS journals, such as jmo, pra, prl, rmp etc are defined by default.
+
+%7=To make unique the abbreviation for the title of parts and sections, we follow the rules:
+
+%a. Put "q" ahead of the word of quantum physics sections, e.g., %physics=qphysics;
+
+%b. Put "c" ahead of the word of computer sections, e.g., %NPCvsNP=cNPCvsNP;
+
+%c. Put "m" ahead of the word of mathematics sections, e.g., %matrix=mmatrix;
+
+%d. When there are identical abbreviations, such as quantum operations, quantum operations and entanglement,
+%quantum operations and distinguishing, mark them as qoperations, qoentanglement, qodistingushing respectively. In other words,
+%take the first alphabet of the first n words in turn.
+
+%8=To make unique the abbreviation for the references, we follow the rules:
+
+%a. When there are only one name, take the last name and year, e.g., Lin Chen 2011=chen11;
+
+%b. When there are two names take the initial alphabets of both last names and year, e.g.,
+%Lin Chen and Huangjun Zhu, 2011=cz11;
+
+%c. When there are three or more names, take the initial alphabets of both last names and year, e.g.,
+%Lin Chen, Huangjun Zhu, and Tzu-Chieh Wei, 2011=czw11;
+
+%d. When there are identical abbreviations, put the publication name in the end; e.g., hhh00PRL and hhh00PRA;
+
+%e. When the reference is a book, put "book" in the end; e.g., harris92book.
+
+\def\Dbar{\leavevmode\lower.6ex\hbox to 0pt
+{\hskip-.23ex\accent"16\hss}D}
+%% \author {{ Dragomir {\v{Z} \Dbar}okovi{\'c}}}
+
+%% \affiliation{Department of Pure Mathematics and Institute for
+%% Quantum Computing, University of Waterloo, Waterloo, Ontario, %% N2L 3G1, Canada} \email{djokovic@uwaterloo.ca}
