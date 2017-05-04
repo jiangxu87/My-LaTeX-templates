@@ -1,0 +1,211 @@
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage{geometry}     % 設定邊界
+\geometry{
+  top=1in,
+  inner=1in,
+  outer=1in,
+  bottom=1in,
+  headheight=3ex,
+  headsep=2ex
+}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xeCJK}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{indentfirst}
+\def\tightlist{}
+\usepackage{fixltx2e} % provides \textsubscript
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+\newcommand{\ImportTok}[1]{{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+\newcommand{\BuiltInTok}[1]{{#1}}
+\newcommand{\ExtensionTok}[1]{{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={陆思锐},
+            pdftitle={DSASPOC2016 4-3 Min 解题报告},
+            colorlinks=true,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+
+%\usepackage{titling}
+%\setlength{\droptitle}{-8em}  % 將標題移動至頁面的上面
+
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancyplain}
+
+\setcounter{secnumdepth}{5}
+
+\title{DSASPOC2016 4-3 Min 解题报告}
+\author{陆思锐\thanks{清华大学物理系\quad 基科52班 \quad 2015012206} }
+
+
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\begin{abstract}
+本文系2016年春季学期邓俊辉老师的 SPOC 数据结构课第四次 PA 第三题 Min
+的解题报告. 给出了一种用堆的基本应用(下滤、堆排序)的解法。
+
+\textbf{关键词：} 数据结构, 算法, 解题报告, 完全二叉堆, 堆排序
+\end{abstract}
+
+
+
+\tableofcontents
+\section{题目}\label{ux9898ux76ee}
+
+\subsection{描述}\label{ux63cfux8ff0}
+
+目前我们已经进入了大数据（Big Data）时代，所
+
+\subsection{输入}\label{ux8f93ux5165}
+
+为了加快输入输出速度，输入文件采用二进制格式存储。前两个数字n和k，表示你需要从n个数字中选出最小的k个。之后随即连续存储了n个整数。
+
+\subsection{输出}\label{ux8f93ux51fa}
+
+输出包括k行，依次为\textbf{从大到小}的最小的k个数字，考虑到输入中的数字可能相同，这里输出的数字也可能相同。
+
+\subsection{输入样例1}\label{ux8f93ux5165ux6837ux4f8b1}
+
+\begin{verbatim}
+6
+3
+1
+4
+-5
+1
+4
+-2
+\end{verbatim}
+
+\subsection{输出样例1}\label{ux8f93ux51faux6837ux4f8b1}
+
+\begin{verbatim}
+1
+-2
+-5
+\end{verbatim}
+
+\subsection{限制}\label{ux9650ux5236}
+
+1 \textless{}= n \textless{}= 10,000,000
+
+\subsection{提示}\label{ux63d0ux793a}
+
+自己测试时，如果对读入二进制数据不熟悉，可以以文本的形式读取数据；
+
+\section{解题报告}\label{ux89e3ux9898ux62a5ux544a}
+
+\subsection{数据范围}\label{ux6570ux636eux8303ux56f4}
+
+根据提示
+
+\subsection{样例分析}\label{ux6837ux4f8bux5206ux6790}
+
+字面意思.
+
+\subsection{算法设计}\label{ux7b97ux6cd5ux8bbeux8ba1}
+
+有什么数据结构可以支持对快速的极值维护呢?
+
+\subsection{数据结构设计}\label{ux6570ux636eux7ed3ux6784ux8bbeux8ba1}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  参考邓老师的模板实现了一个堆(支持下滤堆排序等等)
+\end{enumerate}
+
+\subsection{问题}\label{ux95eeux9898}
+
+一开始使用堆的类型使用的是泛型，
+
+\subsection{时间和空间复杂度的估算}\label{ux65f6ux95f4ux548cux7a7aux95f4ux590dux6742ux5ea6ux7684ux4f30ux7b97}
+
+\subsection{吻合之处}\label{ux543bux5408ux4e4bux5904}
+
+输入量非常大, 根据提示采用了最快的 fread 方式输入输出。用时最高784ms
+
+\section{代码}\label{ux4ee3ux7801}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\OtherTok{#include<cstdio>}
+\OtherTok{#include<iostream>}
+\end{Highlighting}
+\end{Shaded}
+
+\section{参考文献}\label{ux53c2ux8003ux6587ux732e}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  邓俊辉老师数据结构课件
+\item
+  提示1
+\item
+  邓俊辉老师heap 相关代码
+\end{enumerate}
+
+\end{document}
