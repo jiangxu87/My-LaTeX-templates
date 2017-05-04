@@ -1,0 +1,379 @@
+% command
+
+% problem
+
+%\newtheorem{problem}[theorem]{Problem}
+    %these set up environments for listing things. The numbering is automatic.
+
+    
+\newenvironment{sol}[1][Answer]{\noindent\textbf{#1: }}{ \rule{0.5em}{0.5em}
+
+\mbox{}}
+    %this is the environment for writing solutions. Doble spaced, with an end of proof
+    %box at the end
+
+% Some tools
+\newcommand{\enterProblemHeader}[1]{\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak%
+                                    \nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak}%
+\newcommand{\exitProblemHeader}[1]{\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak%
+                                   \nobreak\extramarks{#1}{}\nobreak}%
+
+\newcommand{\homeworkProblemName}{}%
+\newcounter{homeworkProblemCounter}%
+
+\newenvironment{prob}[1][Problem \arabic{homeworkProblemCounter}]%
+  {\stepcounter{homeworkProblemCounter}
+  {\addcontentsline{toc}{subsection}{Problem \arabic{homeworkProblemCounter}}}%
+   \renewcommand{\homeworkProblemName}{#1}%
+   {\noindent\it \textbf{\homeworkProblemName}.}
+   %\subsection*{\homeworkProblemName}%
+   \enterProblemHeader{\homeworkProblemName}}%
+  {\exitProblemHeader{\homeworkProblemName}}\vspace{15mm}%
+  
+  
+
+\newcommand{\homeworkSectionName}{}%
+\newlength{\homeworkSectionLabelLength}{}%
+\newenvironment{homeworkSection}[1]%
+  {% We put this space here to make sure we're not connected to the above.
+
+   \renewcommand{\homeworkSectionName}{#1}%
+   \settowidth{\homeworkSectionLabelLength}{\homeworkSectionName}%
+   \addtolength{\homeworkSectionLabelLength}{0.25in}%
+   \changetext{}{-\homeworkSectionLabelLength}{}{}{}%
+   \subsection*{\homeworkSectionName}%
+   \enterProblemHeader{\homeworkProblemName\ [\homeworkSectionName]}}%
+  {\enterProblemHeader{\homeworkProblemName}%
+
+
+
+   % We put the blank space above in order to make sure this margin
+   % change doesn't happen too soon.
+   \changetext{}{+\homeworkSectionLabelLength}{}{}{}}%
+
+%\newcommand{\sol}{\vspace{3mm}\noindent\ {\it \textbf{Solution.}} }
+
+\newcommand{\Acknowledgement}[1]{\ \\{\bf Acknowledgement:} #1}
+
+
+% template
+
+\newcommand{\Rea}{{\mathbb R}}
+\newcommand{\Int}{{\mathbb Z}}
+\newcommand{\Rat}{{\mathbb Q}}
+\newcommand{\Cmp}{{\mathbb C}}
+\newcommand{\Nat}{{\mathbb N}}
+
+% Overleaf Template
+
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+\newtheorem{ques}[thm]{Question}
+\numberwithin{equation}{section}
+
+
+
+\newcommand{\bbF}{\mathbb{F}}
+\newcommand{\bbX}{\mathbb{X}}
+\newcommand{\bI}{\mathbf{I}}
+\newcommand{\bX}{\mathbf{X}}
+\newcommand{\bY}{\mathbf{Y}}
+\newcommand{\bepsilon}{\boldsymbol{\epsilon}}
+\newcommand{\balpha}{\boldsymbol{\alpha}}
+\newcommand{\bbeta}{\boldsymbol{\beta}}
+\newcommand{\0}{\mathbf{0}}
+
+% Werner Krauth
+% FIXME
+%
+\newcommand\FIXME[1]{{\bf FIXME \{}#1{\bf \}}}
+%
+% definition of pi and complex unity
+%
+\newcommand{\mpi}{\mathrmgreek{p}}
+\newcommand{\mi}{\mathrm{i}}
+%
+% Definitions for text, equation numbers, figures, etc
+%
+\newcommand{\eq}[1]{eqn~(\ref{#1})}
+\newcommand{\eqtwo}[2]{eqns~(\ref{e:#1}) and~(\ref{e:#2})}
+\newcommand{\fig}[1]{Fig.~\ref{f:#1}}
+\newcommand{\quot}[1]{``#1''}
+\newcommand{\tab}[1]{Table~\ref{t:#1}} 
+\newcommand{\chap}[1]{Chapter~\ref{c:#1}} 
+\newcommand{\sect}[1]{Section~\ref{s:#1}} 
+\newcommand{\SECT}[1]{\ref{s:#1}} 
+\newcommand{\eg}{\textrm{e.g.}}
+\newcommand{\cf}{\textrm{cf}}
+\newcommand{\etc}{\textrm{etc.}}
+\newcommand{\etcp}{\textrm{etc}}
+\newcommand{\ie}{\textrm{i.e.}}
+\newcommand{\vs}{\textrm{vs.}}
+%
+% text-indices
+%
+\newcommand{\betac}{{\beta_{\text{c}}}}  %  Critical inverse temperature
+\newcommand{\Tc}{{T_{\text{c}}}}  %  Critical temperature
+\newcommand{\Tr}{\text{Tr}}  %  Trace
+%
+%  non-diagonal density matrix , with optional parameter for `sym' `box' `cube' etc
+%
+\newcommand{\rhomat}[4][]{\rho^{\text{#1}\!}\lc #2,#3,#4\rc}
+%
+%
+\newcommand{\dos}[2][]{\mathcal{N}^{#1} \! \glb #2 \grb} %  density of states
+\newcommand{\dosa}[2][]{\mathcal{N}^{#1}_{#2}} %  density of states
+\newcommand{\dosb}[2][]{\mathcal{N}^{#1} \! \glb #2 \grb} %  density of states
+\newcommand{\dosc}[2][]{\mathcal{N}^{#1} \! \glc #2 \grc} %  density of states
+%
+\newcommand{\ACAL}{\mathcal{A}}  %  mathcal 
+\newcommand{\BCAL}{\mathcal{B}}  %  mathcal
+\newcommand{\CCAL}{\mathcal{C}}  %  mathcal
+\newcommand{\DCAL}{\mathcal{D}}  %  mathcal
+\newcommand{\ECAL}{\mathcal{E}}  %  mathcal
+\newcommand{\FCAL}{\mathcal{F}}  %  mathcal
+\newcommand{\GCAL}{\mathcal{G}}  %  mathcal
+\newcommand{\MCAL}{\mathcal{M}}  %  mathcal
+\newcommand{\NCAL}{\mathcal{N}}  %  mathcal
+\newcommand{\OCAL}{\mathcal{O}}  %  mathcal
+\newcommand{\PCAL}{\mathcal{P}}  %  mathcal
+\newcommand{\QCAL}{\mathcal{Q}}  %  mathcal
+\newcommand{\RCAL}{\mathcal{R}}  %  mathcal
+\newcommand{\SCAL}{\mathcal{S}}  %  mathcal
+\newcommand{\TCAL}{\mathcal{T}}  %  mathcal
+\newcommand{\VCAL}{\mathcal{V}}  %  mathcal
+\newcommand{\XCAL}{\mathcal{X}}  %  mathcal
+\newcommand{\ZCAL}{\mathcal{Z}}  %  mathcal
+%
+% the common Greek letters and their bold versions
+%
+\newcommand{\s}{\sigma}
+\newcommand{\stilde}{\tilde{\sigma}}
+\newcommand{\bs}{\boldsymbol{\sigma}}
+\newcommand{\eps}{\epsilon}
+%
+% poor man's bold for + and - (used for spins)
+%
+\newcommand{\minus}{\ensuremath{\pmb{-}}}
+\newcommand{\plus}{\ensuremath{\pmb{+}}}
+%
+% Definition for hidden text comments 
+%
+%
+% Definition for { text } in equations (in columnar style)
+%
+\newcommand{\eqntext}[1]{ \left\{\!\!\!\mbox{\begin{tabular}{c}  #1 \end{tabular}}\!\!\! \right\}}
+%
+% Definitions for display math
+%
+\newcommand{\BRA}[1]{\ensuremath{\langle #1 |}} % Dirac notation 
+\newcommand{\BRAN}[1]{\ensuremath{\langle #1 }} % Dirac notation  Bra without |
+\newcommand{\KET}[1]{\ensuremath{|#1 \rangle }} % Dirac notation
+%
+% exponentials with braces 'a': no brace 'b' () 'c' [] 'd' {}
+%
+\newcommand{\expa}[1]{\mathrm{e}^{#1}}   % high exponential groupings a
+\newcommand{\expb}[1]{\exp \glb #1 \grb} % low exponential with groupings b
+\newcommand{\expba}[1]{\exp \bigl( #1 \bigr)} % low exponential with groupings b-small
+\newcommand{\expbb}[1]{\exp \Bigl( #1 \Bigr)} % low exponential with groupings b-medium
+\newcommand{\expbc}[1]{\exp \biggl( #1 \biggr)} % low exponential with groupings b-large
+\newcommand{\expbd}[1]{\exp \Biggl( #1 \Biggr)} % low exponential with groupings b-Xlarge
+\newcommand{\expc}[1]{\exp \glc #1 \grc} % low exponential with groupings c
+\newcommand{\expd}[1]{\exp \gld #1 \grd} % low exponential with groupings d
+%
+% trigonometric functions with braces 'a': no brace 'b' () 'c' [] 'd' {}
+%
+\newcommand{\sina}[2][]{\sin^{#1} \! \gla #2 \gra}  % sin-brace,  with - nothing
+\newcommand{\cosa}[2][]{\cos^{#1} \! \gla #2 \gra}  % cos-brace,  with - nothing
+\newcommand{\tana}[2][]{\tan^{#1} \!\gla #2 \gra}  % tan-brace,  with - nothing
+\newcommand{\cota}[2][]{\cot^{#1} \!\gla #2 \gra}  % cot-brace,  with - nothing
+\newcommand{\sinha}[2][]{\sinh^{#1}\! \gla #2 \gra} % sinh-brace, with - nothing
+\newcommand{\cosha}[2][]{\cosh^{#1}\! \gla #2 \gra} % cosh-brace, with - nothing
+\newcommand{\tanha}[2][]{\tanh^{#1}\! \gla #2 \gra} % tanh-brace, with - nothing
+\newcommand{\cotha}[2][]{\coth^{#1}\! \gla #2 \gra} % coth-brace, with - nothing
+
+\newcommand{\sinb}[2][]{\sin^{#1} \glb #2 \grb}  % sin-brace,  with - ()
+\newcommand{\cosb}[2][]{\cos^{#1} \glb #2 \grb}  % cos-brace,  with - ()
+\newcommand{\tanb}[2][]{\tan^{#1} \glb #2 \grb}  % tan-brace,  with - ()
+\newcommand{\cotb}[2][]{\cot^{#1} \glb #2 \grb}  % cot-brace,  with - ()
+\newcommand{\sinhb}[2][]{\sinh^{#1} \glb #2 \grb} % sinh-brace, with - ()
+\newcommand{\coshb}[2][]{\cosh^{#1} \glb #2 \grb} % cosh-brace, with - ()
+\newcommand{\tanhb}[2][]{\tanh^{#1} \glb #2 \grb} % tanh-brace, with - ()
+\newcommand{\cothb}[2][]{\coth^{#1} \glb #2 \grb} % coth-brace, with - ()
+
+\newcommand{\sinc}[2][]{\sin^{#1} \glc #2 \grc}  % sin-brace,  with - []
+\newcommand{\cosc}[2][]{\cos^{#1} \glc #2 \grc}  % cos-brace,  with - []
+\newcommand{\tanc}[2][]{\tan^{#1} \glc #2 \grc}  % tan-brace,  with - []
+\newcommand{\cotc}[2][]{\cot^{#1} \glc #2 \grc}  % cot-brace,  with - []
+\newcommand{\sinhc}[2][]{\sinh^{#1} \glc #2 \grc} % sinh-brace, with - []
+\newcommand{\coshc}[2][]{\cosh^{#1} \glc #2 \grc} % cosh-brace, with - []
+\newcommand{\tanhc}[2][]{\tanh^{#1} \glc #2 \grc} % tanh-brace, with - []
+\newcommand{\cothc}[2][]{\coth^{#1} \glc #2 \grc} % coth-brace, with - []
+
+\newcommand{\sind}[2][]{\sin^{#1} \gld #2 \grd}  % sin-brace,  with - {}
+\newcommand{\cosd}[2][]{\cos^{#1} \gld #2 \grd}  % cos-brace,  with - {}
+\newcommand{\tand}[2][]{\tan^{#1} \gld #2 \grd}  % tan-brace,  with - {}
+\newcommand{\cotd}[2][]{\cot^{#1} \gld #2 \grd}  % cot-brace,  with - {}
+\newcommand{\sinhd}[2][]{\sinh^{#1} \gld #2 \grd} % sinh-brace, with - {}
+\newcommand{\coshd}[2][]{\coth^{#1} \gld #2 \grd} % cosh-brace, with - {}
+\newcommand{\tanhd}[2][]{\tanh^{#1} \gld #2 \grd} % tanh-brace, with - {}
+\newcommand{\cothd}[2][]{\coth^{#1} \gld #2 \grd} % coth-brace, with - {}
+
+\newcommand{\loga}[2][]{\log^{#1}\! \gla #2 \gra}  % log-brace,  with - nothing
+\newcommand{\logb}[2][]{\log^{#1} \glb #2 \grb}  % log-brace,  with - ()
+\newcommand{\logc}[2][]{\log^{#1} \glc #2 \grc}  % log-brace,  with - []
+\newcommand{\logd}[2][]{\log^{#1} \gld #2 \grd}  % log-brace,  with - {}
+
+\newcommand{\arccosa}[2][]{\arccos^{#1}\! \gla #2 \gra}  % arccos-brace,  with - nothing
+\newcommand{\arccosb}[2][]{\arccos^{#1} \glb #2 \grb}  % arccos-brace,  with - ()
+\newcommand{\arccosc}[2][]{\arccos^{#1} \glc #2 \grc}  % arccos-brace,  with - []
+\newcommand{\arccosd}[2][]{\arccos^{#1} \gld #2 \grd}  % arccos-brace,  with - {}
+
+
+\newcommand{\arctana}[2][]{\arctan^{#1}\! \gla #2 \gra}  % arctan-brace,  with - nothing
+\newcommand{\arctanb}[2][]{\arctan^{#1} \glb #2 \grb}  % arctan-brace,  with - ()
+\newcommand{\arctanc}[2][]{\arctan^{#1} \glc #2 \grc}  % arctan-brace,  with - []
+\newcommand{\arctand}[2][]{\arctan^{#1} \gld #2 \grd}  % arctan-brace,  with - {}
+
+\newcommand{\gl}{\left(}  % ' group left' 
+\newcommand{\gr}{\right)}  % ' group right' 
+\newcommand{\lb}{\left[}  % left brace `[' used in sinh[3 beta] etc
+\newcommand{\rb}{\right]}  % right brace ']' "           " 
+\newcommand{\lc}{\left(}  % left brace `(' used in groupings of expressions
+\newcommand{\rc}{\right)}  % right brace ')' "         "            " 
+\newcommand{\mult}{\times} % multiplication sign in display math, 
+\newcommand{\multcc}{\cdot} % multiplication: character times character
+\newcommand{\multnn}{\times} % multiplication:    number times number 
+\newcommand{\multcn}{\cdot} % multiplication: character times number
+\newcommand{\ran}[2]{\FUNCTION[#1,#2]{ran}}
+\newcommand{\nran}[2]{\FUNCTION[#1,#2]{nran}}
+\newcommand{\perL}{\text{per,$L$}}
+\newcommand{\perLL}{\text{per,$2L$}}
+\newcommand{\boxx}[1]{\text{box,$#1$}}
+
+%
+% Groupings on levels a--nothing, b--(), c--[], and d--{} (better solution)
+%
+\newcommand{\gla}{\,}  % ' group left a' 
+\newcommand{\gra}{}  % ' group right a' 
+\newcommand{\glb}{\left(}  % ' group left b' 
+\newcommand{\grb}{\right)}  % ' group right b' 
+\newcommand{\glc}{\left[}  % ' group left c'
+\newcommand{\grc}{\right]}  % ' group right c' 
+\newcommand{\gld}{\left\{}  % ' group left d' 
+\newcommand{\grd}{\right\}}  % ' group right d' 
+
+\newcommand{\const}{\text{const}}
+\newcommand{\Nhits}{N_{\text{hits}}}
+\newcommand{\gauss}[1]{\FUNCTION[#1]{gauss}}
+\newcommand{\PLUSPLUS}{+ \dots +}
+\newcommand{\PLUSDOTS}{+ \cdots}
+\newcommand{\MINUSPLUS}{- \dots +}
+\newcommand{\MINUSDOTS}{- \cdots}
+\newcommand{\PLUSMINUS}{+ \dots -}
+\newcommand{\MINUSMINUS}{- \dots -}
+\newcommand{\MULTMULT}{\cdot \cdots \cdot}
+\newcommand{\TIMESTIMES}{\times \cdots \times}
+\newcommand{\TO}{,\ldots,}
+\newcommand{\VEC}[1]{\mathbf{#1}}
+%
+% vector notations
+%
+\newcommand{\avec}{\VEC{a}}
+\newcommand{\Avec}{\VEC{A}}
+\newcommand{\bvec}{\VEC{b}}
+\newcommand{\cvec}{\VEC{c}}
+\newcommand{\Cvec}{\VEC{C}}
+\newcommand{\dvec}{\VEC{d}}
+\newcommand{\evec}{\VEC{e}}
+\newcommand{\ehatvec}{\hat{\VEC{e}}}
+\newcommand{\fvec}{\VEC{f}}
+\newcommand{\Fvec}{\VEC{F}}
+\newcommand{\gvec}{\VEC{g}}
+\newcommand{\hvec}{\VEC{h}}
+\newcommand{\ivec}{\VEC{i}}
+\newcommand{\jvec}{\VEC{j}}
+\newcommand{\kvec}{\VEC{k}}
+\newcommand{\lvec}{\VEC{l}}
+\newcommand{\mvec}{\VEC{m}}
+\newcommand{\nvec}{\VEC{n}}
+\newcommand{\ovec}{\VEC{o}}
+\newcommand{\pvec}{\VEC{p}}
+\newcommand{\qvec}{\VEC{q}}
+\newcommand{\rvec}{\VEC{r}}
+\newcommand{\Rvec}{\VEC{R}}
+\newcommand{\svec}{\VEC{s}}
+\newcommand{\tvec}{\VEC{t}}
+\newcommand{\uvec}{\VEC{u}}
+\newcommand{\vvec}{\VEC{v}}
+\newcommand{\wvec}{\VEC{w}}
+\newcommand{\xvec}{\VEC{x}}
+\newcommand{\Xvec}{\VEC{X}}
+\newcommand{\yvec}{\VEC{y}}
+\newcommand{\Yvec}{\VEC{Y}}
+\newcommand{\zvec}{\VEC{z}}
+\newcommand{\Zvec}{\VEC{Z}}
+\newcommand{\atilde}{\tilde{a}}
+\newcommand{\btilde}{\tilde{b}}
+\newcommand{\ctilde}{\tilde{c}}
+\newcommand{\ptilde}{\tilde{p}}
+\newcommand{\vtilde}{\tilde{v}}
+\newcommand{\xtilde}{\tilde{x}}
+\newcommand{\ytilde}{\tilde{y}}
+\newcommand{\ztilde}{\tilde{z}}
+\newcommand{\Etilde}{\tilde{E}}
+\newcommand{\Rtilde}{\tilde{R}}
+\newcommand{\phitilde}{\tilde{\phi}}
+\newcommand{\Psitilde}{\tilde{\Psi}}
+\newcommand{\psitilde}{\tilde{\psi}}
+\newcommand{\sigmatilde}{\tilde{\sigma}}
+\newcommand{\alphavec}{\boldsymbol{\alpha}}
+\newcommand{\betavec}{\boldsymbol{\beta}}
+\newcommand{\gammavec}{\boldsymbol{\gamma}}
+\newcommand{\deltavec}{\boldsymbol{\delta}}
+\newcommand{\pivec}{\boldsymbol{\pi}}
+\newcommand{\epsvec}{\boldsymbol{\epsilon}}
+\newcommand{\sigmavec}{\boldsymbol{\sigma}}
+\newcommand{\del}{\delta}
+\newcommand{\dd}[1]{\text{d}{#1\ }}   % this is for differentials in formulas
+\newcommand{\ddd}[1]{\text{d}{#1}}   % same as above, without space 
+%
+% Delta_tau Delta_x Delta_y, etc
+%
+\newcommand{\Delbeta}{\Delta_{\beta}}
+\newcommand{\DelE}{\Delta_E}
+\newcommand{\Deli}{\Delta_i}
+\newcommand{\Delk}{\Delta_k}
+\newcommand{\Dellambda}{\Delta_{\lambda}}
+\newcommand{\Delmu}{\Delta_{\mu}}
+\newcommand{\DelM}{\Delta_{M}}
+\newcommand{\Deln}{\Delta_n}
+\newcommand{\Delphi}{\Delta_{\phi}}
+\newcommand{\Delr}{\Delta_r}
+\newcommand{\Delt}{\Delta_t}
+\newcommand{\Deltau}{\Delta_{\tau}}
+\newcommand{\Delvvec}{\Delta_{\vvec}}
+\newcommand{\Delx}{\Delta_x}
+\newcommand{\Delxp}{\Delta'_x}
+\newcommand{\Delxk}{\Delta_{x_k}}
+\newcommand{\Delxvec}{\Delta_{\xvec}}
+\newcommand{\Delxvecp}{\Delta_{\xvec'}}
+\newcommand{\Dely}{\Delta_y}
+\newcommand{\Delyvec}{\Delta_{\yvec}}
+\newcommand{\Delz}{\Delta_z}
+%
+% scalar product
+%
+\newcommand{\neigh}[2]{\langle #1 , #2 \rangle}
+\newcommand{\scal}[2]{(#1 \pmb{\cdot} #2)}
+\newcommand{\mean}[1]{\left\langle #1 \right\rangle}
+\newcommand{\half}{\frac{1}{2}}
+\newcommand{\thalf}{\tfrac{1}{2}}
+
+\newcommand{\SET}[1]{\{#1\}}
