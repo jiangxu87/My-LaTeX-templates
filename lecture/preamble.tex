@@ -1,0 +1,130 @@
+%package
+
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+%\usepackage{ctex}
+\usepackage{setspace}
+\usepackage{xeCJK}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{extramarks}
+\usepackage{chngpage}
+\usepackage{amsthm}
+\usepackage{soul,color}
+\usepackage{graphicx,float,wrapfig}
+
+
+%\usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+%\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+%\usepackage{ctex}
+\usepackage{amsfonts,amsmath,amssymb,graphicx}
+\usepackage{fullpage}
+\usepackage{setspace}
+% Set target color model to RGB
+\usepackage[rgb]{xcolor}
+\usepackage{verbatim}
+\usepackage{amsgen,amsmath,amstext,amsbsy,amsopn,tikz,amssymb,tkz-linknodes}
+%\usepackage{fancyhdr}
+\usepackage[colorlinks=true, urlcolor=blue,  linkcolor=blue, citecolor=blue]{hyperref}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{rotating}
+%\usetikzlibrary{through,backgrounds}
+\hypersetup{%
+pdfauthor={\StudentName},%
+pdftitle={\Title},%
+pdfkeywords={Tikz,latex,bootstrap,uncertaintes},%
+pdfcreator={XeLaTeX},%
+pdfproducer={XeLaTeX},%
+}
+%\usetikzlibrary{shadows}\usepackage[francais]{babel}
+
+\usepackage{booktabs}
+
+% Setup the header and footer
+%\pagestyle{fancy}                                                       %
+\lhead{\StudentName}                                                 %
+\chead{\Title}  %
+\rhead{\firstxmark}                                                     %
+\lfoot{\lastxmark}                                                      %
+\cfoot{}                                                                %
+\rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}}                          %
+\renewcommand\headheight{15pt}
+\renewcommand\headrulewidth{0.4pt}                                      %
+\renewcommand\footrulewidth{0.4pt}   
+
+%command
+
+\newcommand{\homework}[9]{
+   \pagestyle{fancy}
+   \thispagestyle{plain}
+   \newpage
+   \setcounter{page}{1}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{\vspace{2mm}
+    \hbox to 6.28in { { #7 \hfill \today} }
+       \vspace{6mm}
+       \hbox to 6.28in {\bf {\Large \hfill #1 \hfill} }
+       \vspace{6mm}
+       \hbox to 6.28in { {\it Instructor: #3 \hfill Student: #5 Class: #9} }
+       \hbox to 6.28in { {\it TA: #4  \hfill E-mail: \mailto{#6}}}
+       \hbox to 6.28in { {\it Due: #2  \hfill Student Number: 2015012206}}
+       
+      \vspace{2mm}}
+   }
+   \end{center}
+   %\markboth{#5 -- #1}{#5 -- #1}                                  
+   \vspace*{4mm}
+}
+
+\newcommand{\lecture}[9]{
+   \pagestyle{fancy}
+   \thispagestyle{plain}
+   \newpage
+   \setcounter{page}{1}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{\vspace{2mm}
+    \hbox to 6.28in { { #7 \hfill \today} }
+       \vspace{6mm}
+       \hbox to 6.28in {\bf {\Large \hfill #1 \hfill} }
+       \vspace{6mm}
+       \hbox to 6.28in { {\it Instructor: #3 \hfill Student: #5 Class: #9} }
+       \hbox to 6.28in { {\it TA: #4  \hfill E-mail: \mailto{#6}}}
+       \hbox to 6.28in { {\it Date: #2  \hfill Student Number: 2015012206}}
+       
+      \vspace{2mm}}
+   }
+   \end{center}
+   %\markboth{#5 -- #1}{#5 -- #1}                                  
+   \vspace*{4mm}
+}
+
+
+
+%\setlength{\oddsidemargin}{.25in}
+%\setlength{\evensidemargin}{.25in}
+%\setlength{\textwidth}{6in}
+%\setlength{\topmargin}{0.4in}
+%\setlength{\textheight}{8.5in}
+
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{observation}{Observation}
+
+%\newenvironment{proof}{\noindent{\bf Proof:} \hspace*{1mm}}{\hspace*{\fill} $\Box$ }
+\newenvironment{proof_of}[1]{\noindent {\bf Proof of #1:}
+	\hspace*{1mm}}{\hspace*{\fill} $\Box$ }
+\newenvironment{proof_claim}{\begin{quotation} \noindent}{
+	\hspace*{\fill} $\diamond$ \end{quotation}}
+
+
+\setlength{\topskip}{10mm}
