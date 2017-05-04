@@ -1,0 +1,241 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+\usepackage{lmodern}
+
+\usepackage{beamerthemeTsinghua}
+
+%\mode<presentation> {
+%\usetheme{Rochester}
+%\usecolortheme{seahorse}
+%}
+
+\usepackage{xeCJK}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+
+
+\newif\ifbibliography
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\hypersetup{
+            pdftitle={Beamer template},
+            pdfauthor={Sirui Lu},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{caption}
+% These lines are needed to make table captions work with longtable:
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+
+
+
+
+
+% Prevent slide breaks in the middle of a paragraph:
+\widowpenalties 1 10000
+\raggedbottom
+
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \let\insertsectionnumber\relax
+    \let\sectionname\relax
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+\title{Beamer template}
+\author{Sirui Lu}
+\institute{Department of Physics, Tsinghua University}
+\date{March 5, 2017}
+\logo{\includegraphics[width=1cm]{logo.eps}}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Outline} % Table of contents slide, comment this block out to remove it
+\tableofcontents% Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+\section{量子物理简介}\label{ux91cfux5b50ux7269ux7406ux7b80ux4ecb}
+
+\begin{frame}{维度诅咒}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  单粒子: \(c_0|0\rangle+c_1|1\rangle\in H\) Dimension is 2
+\item
+  双粒子:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \(c_{00}|00\rangle+c_{01}|01\rangle+c_{10}|10\rangle+c_{11}|11\rangle\in H \otimes H\)
+  Dimension is 4
+\item
+  \(|00\rangle+|11\rangle\): \textbf{纠缠!}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  多粒子:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \(c_{0\dots0}|0\cdots0\rangle+\cdots+c_{1\cdots1}|1\cdots1\rangle \in H^{\otimes n}\)
+\item
+  维度数为 \textbf{\(2^n\)} !!!
+\end{itemize}
+
+希尔伯特空间太大了！如何有效地描述？
+
+\end{frame}
+
+\section{项目信息}\label{ux9879ux76eeux4fe1ux606f}
+
+\begin{frame}{总体目标}
+
+\begin{itemize}
+\tightlist
+\item
+  吃喝玩乐
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{具体问题样例:}
+
+\begin{itemize}
+\tightlist
+\item
+  吃喝玩乐
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{项目时间节点}
+
+\begin{itemize}
+\tightlist
+\item
+  2017年3月 立项
+\item
+  2017年4月 完成前期准备工作
+\item
+  2017年7月 完成现有工作重现
+\item
+  2018年2月 完成新问题的初步探索
+\item
+  2018年3月 结题
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{项目需要}
+
+\begin{itemize}
+\tightlist
+\item
+  吃喝玩乐
+\end{itemize}
+
+\end{frame}
+
+\section{预算}\label{ux9884ux7b97}
+
+\begin{frame}{调研:}
+
+仅提供G4和G2两种型号:
+
+\begin{itemize}
+\tightlist
+\item
+  吃喝玩乐
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{方案:}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+类别 & 硬件（参考） & 单价 & 数量 & 总计\tabularnewline
+\midrule
+\endhead
+可拓展主板 & 技嘉 X99P-SLI 主板 & 3000 & 1 & 3000\tabularnewline
+& & & &\tabularnewline
+& & & &\tabularnewline
+& & & &\tabularnewline
+& & & &\tabularnewline
+& & & &\tabularnewline
+& & & &\tabularnewline
+& & & &\tabularnewline
+& & & &\tabularnewline
+& & & &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\end{frame}
+
+\section{附录}\label{ux9644ux5f55}
+
+\begin{frame}{项目需要}
+
+本项目唯一的实验条件就是计算资源。
+
+\end{frame}
+
+\renewcommand\refname{Reference}
+\begin{frame}[allowframebreaks]{Reference}
+\bibliographytrue
+\bibliography{ref.bib}
+\end{frame}
+
+
+\begin{frame}
+\begin{center}
+\Huge{{Thank you!}}
+\end{center}
+\end{frame}
+\begin{frame}
+\begin{center}
+\Huge{{Questions/Answers}}
+\end{center}
+\end{frame}
+
+\end{document}
