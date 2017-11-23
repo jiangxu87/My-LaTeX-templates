@@ -1,0 +1,35 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bravyi and Haah()]{bravyi3252analytic}
+Sergey Bravyi and Jeongwan Haah.
+\newblock Analytic and numerical demonstration of quantum self-correction in
+  the 3d cubic code. 2011.
+\newblock \emph{arXiv preprint arXiv:1112.3252}.
+
+\bibitem[Bravyi and Hastings(2011)]{bravyi2011short}
+Sergey Bravyi and Matthew~B Hastings.
+\newblock A short proof of stability of topological order under local
+  perturbations.
+\newblock \emph{Communications in mathematical physics}, 307\penalty0
+  (3):\penalty0 609--627, 2011.
+
+\bibitem[Bravyi et~al.(2010)Bravyi, Hastings, and
+  Michalakis]{bravyi2010topological}
+Sergey Bravyi, Matthew~B Hastings, and Spyridon Michalakis.
+\newblock Topological quantum order: stability under local perturbations.
+\newblock \emph{Journal of mathematical physics}, 51\penalty0 (9):\penalty0
+  093512, 2010.
+
+\bibitem[Koenig et~al.(2010)Koenig, Kuperberg, and
+  Reichardt]{koenig2010quantum}
+Robert Koenig, Greg Kuperberg, and Ben~W Reichardt.
+\newblock Quantum computation with turaev--viro codes.
+\newblock \emph{Annals of Physics}, 325\penalty0 (12):\penalty0 2707--2749,
+  2010.
+
+\end{thebibliography}

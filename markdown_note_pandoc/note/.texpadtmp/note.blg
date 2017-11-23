@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: /Users/Divergence/Dropbox/Levin-Wen/note/.texpadtmp/note.aux
+The style file: plainnat.bst
+Database file #1: noteNotes.bib
+Database file #2: ../ref.bib.bib
+Warning--empty year in bravyi3252analytic
+Warning--empty year in bravyi3252analytic
+You've used 4 entries,
+            2773 wiz_defined-function locations,
+            622 strings with 5649 characters,
+and the built_in function-call counts, 1864 in all, are:
+= -- 164
+> -- 102
+< -- 2
++ -- 34
+- -- 30
+* -- 161
+:= -- 289
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 22
+chr.to.int$ -- 4
+cite$ -- 10
+duplicate$ -- 81
+empty$ -- 154
+format.name$ -- 38
+if$ -- 380
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 4
+newline$ -- 28
+num.names$ -- 16
+pop$ -- 42
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 60
+stack$ -- 0
+substring$ -- 82
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 2
+while$ -- 17
+width$ -- 0
+write$ -- 57
+(There were 2 warnings)

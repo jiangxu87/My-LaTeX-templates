@@ -1,0 +1,162 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+\usepackage{lmodern}
+
+\usepackage{beamerthemeTsinghua}
+
+%\mode<presentation> {
+%\usetheme{Rochester}
+%\usecolortheme{seahorse}
+%}
+
+\usepackage{xeCJK}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+
+
+\newif\ifbibliography
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\hypersetup{
+            pdftitle={Codes for Simultaneous Transmission of Quantum and Classical Information},
+            pdfauthor={Sirui Lu},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+
+
+
+
+
+% Prevent slide breaks in the middle of a paragraph:
+\widowpenalties 1 10000
+\raggedbottom
+
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \let\insertsectionnumber\relax
+    \let\sectionname\relax
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+\title{Codes for Simultaneous Transmission of Quantum and Classical Information}
+\author{Sirui Lu}
+\institute{ISIT 2017}
+\date{June 28, 2017}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Outline} % Table of contents slide, comment this block out to remove it
+\tableofcontents% Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+\section{Introduction}\label{introduction}
+
+\begin{frame}{Introduction}
+
+\begin{itemize}
+\tightlist
+\item
+  The simultaneous transmission of both quantum and classical
+  information over a quantum channel was initially investigated in
+  \citeyearpar{DeSh05} from an information theoretic point of view, and
+  followed up by many others (see, e. g.
+  \citeyearpar[\citet{hsieh2010entanglement},
+  \citet{hsieh2010trading}]{yard2005simultaneous}).
+\end{itemize}
+
+\end{frame}
+
+\section{Background and Notations}\label{background-and-notations}
+
+\begin{frame}{Background and Notations}
+
+Our discussion is based on the theory of stabilizer quantum codes and
+its connection to classical error-correcting codes (see, e. g.,
+\citet{CRSS98}). We use the following notations.
+
+\end{frame}
+
+\section{Results}\label{results}
+
+\begin{frame}{Results (Code Search)}
+
+We perform a search for \(\mathcal{C}=[\![n,k{:}m,d]\!]_2\) codes with
+distance \(d\ge 3\).
+
+\end{frame}
+
+\section{Discussion}\label{discussion}
+
+\begin{frame}{Discussion}
+
+\begin{itemize}
+\tightlist
+\item
+  We have characterized hybrid quantum codes for the simultaneous
+  transmission of quantum and classical information in terms of
+  generalized Knill-Laflamme conditions.
+\end{itemize}
+
+\end{frame}
+
+\section{Conclusions}\label{conclusions}
+
+\begin{frame}{Conclusions}
+
+\begin{itemize}
+\tightlist
+\item
+  We consider the characterization as well as the construction of
+  quantum codes that allow to transmit both quantum and classical
+  information, which we refer to as ``\textbf{hybrid codes}''.
+\end{itemize}
+
+\end{frame}
+
+\renewcommand\refname{Reference}
+\begin{frame}[allowframebreaks]{Reference}
+\bibliographytrue
+\bibliography{ref.bib}
+\end{frame}
+
+
+\begin{frame}
+\begin{center}
+\Huge{{Thank you!}}
+\end{center}
+\end{frame}
+\begin{frame}
+\begin{center}
+\Huge{{Questions/Answers}}
+\end{center}
+\end{frame}
+
+\end{document}

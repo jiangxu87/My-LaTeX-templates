@@ -1,0 +1,41 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Calderbank et~al.(1998)Calderbank, Rains, Shor, and Sloane]{CRSS98}
+A.~Robert Calderbank, Eric.~M. Rains, Peter~W. Shor, and Neil~J.~A. Sloane.
+\newblock Quantum error correction via codes over {$GF(4)$}.
+\newblock \emph{IEEE Transactions on Information Theory}, 44\penalty0
+  (4):\penalty0 1369--1387, July 1998.
+
+\bibitem[Devetak and Shor(2005)]{DeSh05}
+Igor Devetak and Peter~W. Shor.
+\newblock The capacity of a quantum channel for simultaneous transmission of
+  classical and quantum information.
+\newblock \emph{Communications in Mathematical Physics}, 256\penalty0
+  (2):\penalty0 287--303, June 2005.
+
+\bibitem[Hsieh and Wilde(2010{\natexlab{a}})]{hsieh2010entanglement}
+Min-Hsiu Hsieh and Mark~M. Wilde.
+\newblock Entanglement-assisted communication of classical and quantum
+  information.
+\newblock \emph{IEEE Transactions on Information Theory}, 56\penalty0
+  (9):\penalty0 4682--4704, September 2010{\natexlab{a}}.
+
+\bibitem[Hsieh and Wilde(2010{\natexlab{b}})]{hsieh2010trading}
+Min-Hsiu Hsieh and Mark~M. Wilde.
+\newblock Trading classical communication, quantum communication, and
+  entanglement in quantum shannon theory.
+\newblock \emph{IEEE Transactions on Information Theory}, 56\penalty0
+  (9):\penalty0 4705--4730, September 2010{\natexlab{b}}.
+
+\bibitem[Yard(2005)]{yard2005simultaneous}
+Jon Yard.
+\newblock \emph{Simultaneous classical-quantum capacities of quantum multiple
+  access channels}.
+\newblock PhD thesis, Stanford University, Stanford, USA, 2005.
+
+\end{thebibliography}
